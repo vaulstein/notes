@@ -1,6 +1,5 @@
 ## NOTES
 
-[![GitHub license](https://img.shields.io/pypi/l/pyzipcode-cli.svg)](https://img.shields.io/pypi/l/pyzipcode-cli.svg) [![Supported python versions](https://img.shields.io/pypi/pyversions/Django.svg)]([![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()) [![Join the chat at https://gitter.im/prodicus/tnote](https://badges.gitter.im/prodicus/tnote.svg)](https://gitter.im/prodicus/tnote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ```
   _   _       _
@@ -51,7 +50,7 @@ Watch a live demo of it working here
 
 - **Dead simple to use**: Even your granny would be able to use it. No seriously!
 - **Feature rich** Add your precious note with it's _title_ , _content_ , _tags_
-- **Secure**: Encrypts your database using standard **AES-256 in CBC mode**. So even if anybody gets hand of your database file. He cannot make any sense of it. [A little demo of what I am doing using it](https://github.com/tasdikrahman/tnote/wiki/So-you-say-it-is-encrypted-eh%3F)
+- **Secure**: Encrypts your database using standard **AES-256 in CBC mode**. So even if anybody gets hand of your database file. He cannot make any sense of it. [A little demo of what I am doing using it](https://github.com/tasdikrahman/notes/wiki/So-you-say-it-is-encrypted-eh%3F)
 
 **NOTE**
   _This feature is available/tested only on linux based systems. Support for other OS's coming soon!_
@@ -97,14 +96,16 @@ $ cd notes && pip install -r requirements.txt
 *Add a symbolic link to it*
 
 ```sh
-$ chmod +x tnote
+$ chmod +x notes
 $ cd ~/bin/ 
-$ ln -s ~/some/path/to/notes
+$ ln -s ~/some/path/to/notes/notes
 ```
 
 Replace `~/some/path/to/notes` by the path where you have cloned the repo. For example if you have cloned it to `~/Downloads/notes` folder than your command should look something like
 
 `$ ln -s ~/Downloads/notes/notes`
+
+Add the `notes` executable at the end of the path.
 
 #### Run it
 

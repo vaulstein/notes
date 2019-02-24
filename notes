@@ -90,7 +90,7 @@ def menu_loop():
     choice = None
     while choice != 'q':
         clear()
-        tnote_banner = r"""
+        notes_banner = r"""
 
 
   _   _       _            
@@ -102,7 +102,7 @@ def menu_loop():
                            
                                  
         """
-        puts(colored.yellow(tnote_banner))
+        puts(colored.yellow(notes_banner))
         puts(colored.red("\nEnter 'q' to quit"))
         for key, value in menu.items():
             puts(colored.green('{}) {} : '.format(key, value.__doc__)))
